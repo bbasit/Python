@@ -1,0 +1,62 @@
+git config --global user.name "basit"
+git config --global user.email "sp18bscs0019@maju.edu.pk"
+
+
+git init 
+
+ls -la
+
+git status
+
+untracked - red to track -green (called staging)
+
+git add f3.txt
+
+
+git commit(means set version) -m "short message"(after commit goes in database from track)
+
+git log (for history){cronological or decending order}
+
+git add *.txt(add all txt files)
+
+git add foldername/* (add all files in folder)
+
+git add . (add all things in repo)
+
+git add -A(add all things)
+
+git add --all(add all things)
+
+git log -p(for full detail)
+
+enggqasim ----sylani ai
+
+git branch signup
+
+git branch -v (branch details)
+
+git checkout login (changing branch)
+
+git merge login signup(for merging branch)
+
+git stash (saving data temporary)
+
+git stash list (watxhing all temporary saving)
+=================== create link===============
+
+git remote add origin link
+
+git  push origin -u --all
+
+=======================for online file excess========
+
+git clone "ligit nk"
+
+making new folder and then go inside then use this clone 
+
+
+pull and fetch command 
+
+with pull we got history + data
+
+with fetch got only data
